@@ -1,0 +1,43 @@
+.navbar-fixed-top>.first {
+    background: #3c3c3c;
+    color: #000000;
+}
+
+.navbar-fixed-top>div {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.navbar-fixed-top>.second {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.bar {
+    top: 50px;
+    width: 18px;
+    height: 111.5px;
+    margin-left: 30%;
+    position: absolute;
+    background: orangered;
+    -webkit-transform: skew(-45deg); /* Chrome, Opera */
+    -ms-transform: skew(-45deg); /* IE */
+    transform: skew(-45deg); /* Padrão */
+}
+
+.login {
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div.search {
+    z-index: 1030;
+}
+
+@media(max-width:480px) {
+    .navbar-fixed-top>div {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
