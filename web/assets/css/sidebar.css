@@ -1,6 +1,6 @@
 #wrapper {
     padding-left: 0;
-    margin-top: 160px;
+    margin-top: 100px;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -121,5 +121,9 @@
 @media(max-width:768px) {
     #sidebar-wrapper {
         right: 0;
+    }
+    
+    #page-content-wrapper {
+        position: initial;
     }
 }

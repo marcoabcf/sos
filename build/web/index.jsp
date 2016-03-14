@@ -21,21 +21,10 @@
         <div id="wrapper">
             <%@include file="_layouts/sidebar.jsp" %>
 
-            <div class="search">
-                <div class="col-lg-12">
-                    <form class="navbar-form navbar-right" role="search">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="nome da empresa, produto para reclamar ou pesquisar">
-                        </div>
-                        <button type="submit" class="btn btn-default">Buscar</button>
-                    </form>
-                </div>
-            </div>
-
             <div id="page-content-wrapper">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-lg-12">
+                        <div class="col-xs-12 col-md-12">
                             <h1>Simple Sidebar</h1>
                             <p>This template has a responsive menu toggling system. The menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will appear/disappear. On small screens, the page content will be pushed off canvas.</p>
                             <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>.</p>

@@ -1,6 +1,10 @@
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid first">
         <div class="navbar-header">
+            <a class="navbar-brand" href="#">SOS</a>
+        </div>
+        <div class="bar"></div>
+        <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-first" aria-expanded="false" aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
@@ -34,11 +38,13 @@
             </ul>
         </div>
     </div>
-    <div class="container-fluid second">
-        <div class="bar"></div>
-        <div class="navbar-header">
-            <a class="navbar-brand" href="#">SOS</a>
-        </div>
+    <div class="container-fluid second search">
+        <form class="navbar-form navbar-right" role="search">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="nome da empresa, produto para reclamar ou pesquisar">
+            </div>
+            <button type="submit" class="btn btn-default">Buscar</button>
+        </form>
     </div>
 
 </nav>

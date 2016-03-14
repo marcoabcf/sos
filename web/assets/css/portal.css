@@ -9,17 +9,16 @@
 }
 
 .navbar-fixed-top>.second {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    background-color: #ec971f;
 }
 
 .bar {
-    top: 50px;
+    top: 0;
     width: 18px;
-    height: 111.5px;
+    height: 50px;
     margin-left: 30%;
     position: absolute;
-    background: orangered;
+    background: #ec971f;
     -webkit-transform: skew(-45deg); /* Chrome, Opera */
     -ms-transform: skew(-45deg); /* IE */
     transform: skew(-45deg); /* Padrão */
@@ -29,10 +28,6 @@
     width: 200px;
     margin-top: 10px;
     margin-bottom: 10px;
-}
-
-div.search {
-    z-index: 1030;
 }
 
 @media(max-width:480px) {
