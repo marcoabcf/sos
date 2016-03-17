@@ -126,4 +126,8 @@
     #page-content-wrapper {
         position: initial;
     }
+    
+    #wrapper {
+        margin-top: -30px;
+    }
 }

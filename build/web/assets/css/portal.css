@@ -12,6 +12,19 @@
     background-color: #ec971f;
 }
 
+.navbar-default .navbar-nav>li>a {
+    color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #CCCCCC;
+}
+
+.logo {
+    margin-top: -5px;
+    width: 125px;
+}
+
 .bar {
     top: 0;
     width: 18px;
@@ -30,9 +43,28 @@
     margin-bottom: 10px;
 }
 
+input {  
+    border: 0;
+    border-radius: 0;
+}
+
 @media(max-width:480px) {
     .navbar-fixed-top>div {
         padding-left: 50px;
         padding-right: 50px;
+    }
+}
+
+@media(max-width:768px) {
+    .bar {
+        height: 100px;
+        margin-left: 50%;
+    }
+    .navbar-fixed-top>div {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .navbar-fixed-top {
+        position: initial;
     }
 }
