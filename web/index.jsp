@@ -14,6 +14,7 @@
 
         <script src="assets/js/jquery-2.2.1.js"></script>
         <script src="assets/css/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/jquery.cycle2.min.js"></script>
     </head>
     <body>
         <%@include file="_layouts/header.jsp" %>
@@ -25,10 +26,26 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-xs-12 col-md-12">
-                            <h1>Simple Sidebar</h1>
-                            <p>This template has a responsive menu toggling system. The menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will appear/disappear. On small screens, the page content will be pushed off canvas.</p>
-                            <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>.</p>
-                            <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
+                            <div class="carousel-back">
+                                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover">
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="item active">
+                                            <img src="assets/img/ad.png" alt="...">
+                                        </div>
+                                        <div class="item">
+                                            <img src="assets/img/AD2.jpg " alt="...">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-md-12">
+                            <h2>Panel Heading</h2>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">Panel Heading</div>
+                                <div class="panel-body">Panel Content</div>
+                            </div>
                         </div>
                     </div>
                 </div>

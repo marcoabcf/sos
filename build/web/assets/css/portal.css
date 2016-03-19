@@ -48,6 +48,31 @@ input {
     border-radius: 0;
 }
 
+.cycle-slideshow > div {
+    line-height: normal;
+}
+
+.cycle-slideshow > div > div > .title {
+    text-align: center;
+    font-weight: bold;
+    padding: 5px 0;
+    margin-left: inherit;
+    background-color: #e7e7e7;
+}
+
+.carousel-inner > .item > img {
+    width: 100%;
+}
+
+.mais {
+    text-align: right;
+}
+
+.mais>a:hover {
+    color: #3c3c3c !important;
+    background-color: transparent !important;
+}
+
 @media(max-width:480px) {
     .navbar-fixed-top>div {
         padding-left: 50px;
