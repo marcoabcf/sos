@@ -1,7 +1,7 @@
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid first">
         <div class="navbar-header">
-            <a class="navbar-brand" href="#"><img class="logo" alt="SOS Company" src="assets/img/logo.png"></a>
+            <a class="navbar-brand" href="#"><img class="logo" alt="SOS Company" src="assets/img/sosseparado.PNG"></a>
         </div>
         <div class="bar"></div>
         <div class="navbar-header">
