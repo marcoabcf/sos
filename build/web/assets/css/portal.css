@@ -9,7 +9,7 @@
 }
 
 .navbar-fixed-top>.second {
-    background-color: #ec971f;
+    background-color: #ff7600;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -21,8 +21,8 @@
 }
 
 .logo {
-    margin-top: -5px;
-    width: 125px;
+    margin-top: -15px;
+    width: 250px;
 }
 
 .bar {
@@ -31,7 +31,7 @@
     height: 50px;
     margin-left: 30%;
     position: absolute;
-    background: #ec971f;
+    background: #ff7600;
     -webkit-transform: skew(-45deg); /* Chrome, Opera */
     -ms-transform: skew(-45deg); /* IE */
     transform: skew(-45deg); /* Padrão */
@@ -82,7 +82,7 @@ input {
 
 @media(max-width:768px) {
     .bar {
-        height: 100px;
+        height: 50px;
         margin-left: 50%;
     }
     .navbar-fixed-top>div {
@@ -91,5 +91,18 @@ input {
     }
     .navbar-fixed-top {
         position: initial;
+    }
+    .logo {
+        width: 80px;
+    }
+    .navbar-toggle {
+        margin-top: -42px;
+    }
+    #carousel-div-responsive {
+        padding: 0;
+    }
+    #page-content-wrapper {
+        padding-left: 0;
+        padding-right: 0;
     }
 }

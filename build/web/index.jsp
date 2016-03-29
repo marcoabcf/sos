@@ -1,55 +1,100 @@
-<%@page contentType="text/html" pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html>
-<html lang="PT-br">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>SOS</title>
+<%@include file="_layouts/header.jsp" %>
 
-        <!-- Bootstrap -->
-        <link href="assets/css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-        <link href="assets/css/sidebar.css" rel="stylesheet">
-        <link href="assets/css/portal.css" rel="stylesheet">
-
-        <script src="assets/js/jquery-2.2.1.js"></script>
-        <script src="assets/css/bootstrap/js/bootstrap.min.js"></script>
-        <script src="assets/js/jquery.cycle2.min.js"></script>
-    </head>
-    <body>
-        <%@include file="_layouts/header.jsp" %>
-
-        <div id="wrapper">
-            <%@include file="_layouts/sidebar.jsp" %>
-
-            <div id="page-content-wrapper">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-xs-12 col-md-12">
-                            <div class="carousel-back">
-                                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover">
-                                    <div class="carousel-inner" role="listbox">
-                                        <div class="item active">
-                                            <img src="assets/img/ad.png" alt="...">
-                                        </div>
-                                        <div class="item">
-                                            <img src="assets/img/AD2.jpg " alt="...">
-                                        </div>
-                                    </div>
+<section id="home">
+    <!--<div class="home-pattern"></div>-->
+    <div class="container">
+        <div class="text-center">
+            <div class="col-sm-8 col-sm-offset-2">
+                <h2 class="title-one">Why With Us?</h2>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+            </div>
+        </div>
+        <div class="about-us">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h3>Why with us?</h3>
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#about" data-toggle="tab"><i class="fa fa-chain-broken"></i> About</a></li>
+                        <li><a href="#mission" data-toggle="tab"><i class="fa fa-th-large"></i> Mission</a></li>
+                        <li><a href="#community" data-toggle="tab"><i class="fa fa-users"></i> Community</a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane fade in active" id="about">
+                            <div class="media">
+                                <img class="pull-left media-object" src="assets/images/about-us/about.jpg" alt="about us"> 
+                                <div class="media-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
                                 </div>
                             </div>
                         </div>
-
-                        <div class="col-xs-12 col-md-12">
-                            <h2>Panel Heading</h2>
-                            <div class="panel panel-default">
-                                <div class="panel-heading">Panel Heading</div>
-                                <div class="panel-body">Panel Content</div>
+                        <div class="tab-pane fade" id="mission">
+                            <div class="media">
+                                <img class="pull-left media-object" src="assets/images/about-us/mission.jpg" alt="Mission"> 
+                                <div class="media-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="community">
+                            <div class="media">
+                                <img class="pull-left media-object" src="assets/images/about-us/community.jpg" alt="Community"> 
+                                <div class="media-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="col-sm-6">
+                    <h3>Our Skills</h3>
+                    <div class="skill-bar">
+                        <div class="skillbar clearfix " data-percent="90%">
+                            <div class="skillbar-title">
+                                <span>HTML5 &amp; CSS3</span>
+                            </div>
+                            <div class="skillbar-bar"></div>
+                            <div class="skill-bar-percent">90%</div>
+                        </div> <!-- End Skill Bar -->
+                        <div class="skillbar clearfix" data-percent="85%">
+                            <div class="skillbar-title"><span>UI Design</span></div>
+                            <div class="skillbar-bar"></div>
+                            <div class="skill-bar-percent">85%</div>
+                        </div> <!-- End Skill Bar -->
+                        <div class="skillbar clearfix " data-percent="70%">
+                            <div class="skillbar-title"><span>jQuery</span></div>
+                            <div class="skillbar-bar"></div>
+                            <div class="skill-bar-percent">70%</div>
+                        </div> <!-- End Skill Bar -->
+                        <div class="skillbar clearfix " data-percent="60%">
+                            <div class="skillbar-title"><span>PHP</span></div>
+                            <div class="skillbar-bar"></div>
+                            <div class="skill-bar-percent">60%</div>
+                        </div> <!-- End Skill Bar -->
+                        <div class="skillbar clearfix " data-percent="75%">
+                            <div class="skillbar-title"><span>Wordpress</span></div>
+                            <div class="skillbar-bar"></div>
+                            <div class="skill-bar-percent">75%</div>
+                        </div> <!-- End Skill Bar --></div>
+                </div>
             </div>
         </div>
-    </body>
-</html>
+    </div>
+</section>
+
+<section id="forum">
+    <%@include file="forum.jsp" %>
+</section>
+
+<section id="faq">
+    <%@include file="faq.jsp" %>
+</section>
+
+<section id="login">
+    <%@include file="login.jsp" %>
+</section>
+
+<section id="contact">
+    <%@include file="contato.jsp" %>
+</section> <!--/#contact--> 
+
+<%@include  file="_layouts/footer.jsp" %>

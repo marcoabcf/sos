@@ -4,7 +4,7 @@
             Perguntas Frequentes
         </li>
         <li>
-            <div class="cycle-slideshow" data-cycle-fx="scrollVertt" data-cycle-timeout="8000" data-cycle-slides="> div">
+            <div class="cycle-slideshow" data-cycle-fx="scrollVert" data-cycle-timeout="8000" data-cycle-slides="> div">
                 <div class="col-md-12">
                     <div class="row">
                         <div class="title">GVT</div>

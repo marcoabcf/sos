@@ -1,50 +1,47 @@
-<nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container-fluid first">
-        <div class="navbar-header">
-            <a class="navbar-brand" href="#"><img class="logo" alt="SOS Company" src="assets/img/sosseparado.PNG"></a>
-        </div>
-        <div class="bar"></div>
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-first" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-        </div>
-
-        <div id="navbar-first" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Fórum</a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Fazer Login <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li>
-                            <div class="container-fluid login">
-                                 <form>
-                                    <div class="form-group">
-                                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                                    </div>
-                                    <button type="submit" class="btn btn-default btn-block">Logar</button>
-                                </form>
-                            </div>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <div class="container-fluid second search">
-        <form class="navbar-form navbar-right" role="search">
-            <div class="form-group">
-                <input type="text" class="form-control" placeholder="nome da empresa, produto para reclamar ou pesquisar">
+<!DOCTYPE html>
+<html lang="PT-br">
+    <head> 
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content="Creative One Page Parallax Template">
+        <meta name="keywords" content="Creative, Onepage, Parallax, HTML5, Bootstrap, Popular, custom, personal, portfolio" /> 
+        <meta name="author" content=""> 
+        <title>SOS</title> 
+        <%@include file="requests/_requestsH.jsp" %>
+    </head><!--/head-->
+    <body>
+        <div class="preloader">
+            <div class="preloder-wrap">
+                <div class="preloder-inner"> 
+                    <div class="ball"></div> 
+                    <div class="ball"></div> 
+                    <div class="ball"></div> 
+                    <div class="ball"></div> 
+                    <div class="ball"></div> 
+                    <div class="ball"></div> 
+                    <div class="ball"></div>
+                </div>
             </div>
-            <button type="submit" class="btn btn-default">Buscar</button>
-        </form>
-    </div>
-
-</nav>
+        </div><!--/.preloader-->
+        <header id="navigation"> 
+            <div class="navbar navbar-inverse navbar-fixed-top" role="banner"> 
+                <div class="container"> 
+                    <div class="navbar-header"> 
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> 
+                            <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> 
+                        </button> 
+                        <a class="navbar-brand" href="index.html"><h1><img class="logo" src="<%=request.getContextPath()%>/assets/images/sosseparadopreta.png" alt="logo"></h1></a> 
+                    </div> 
+                    <div class="collapse navbar-collapse"> 
+                        <ul class="nav navbar-nav navbar-right"> 
+                            <li><a href="#search"><span class="glyphicon glyphicon-search"></span></a></li> 
+                            <li class="scroll active"><a href="#navigation">Início</a></li>
+                            <li class="scroll"><a href="#forum">Fórum</a></li> 
+                            <li class="scroll"><a href="#faq">FAQ</a></li>
+                            <li class="scroll"><a href="#login">Login</a></li> 
+                            <li class="scroll"><a href="#contact">Contato</a></li> 
+                        </ul> 
+                    </div> 
+                </div> 
+            </div><!--/navbar--> 
+        </header> <!--/#navigation--> 
