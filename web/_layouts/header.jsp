@@ -30,11 +30,11 @@
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> 
                             <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> 
                         </button> 
-                        <a class="navbar-brand" href="index.html"><h1><img class="logo" src="<%=request.getContextPath()%>/assets/images/sosseparadopreta.png" alt="logo"></h1></a> 
+                        <a class="navbar-brand" href="./"><h1><img class="logo" src="<%=request.getContextPath()%>/assets/images/sosseparadopreta.png" alt="logo"></h1></a> 
                     </div> 
                     <div class="collapse navbar-collapse"> 
                         <ul class="nav navbar-nav navbar-right"> 
-                            <li><a href="#search"><span class="glyphicon glyphicon-search"></span></a></li> 
+                            <li><a id="search" onclick="searchs(this);"><span class="glyphicon glyphicon-search"></span></a></li> 
                             <li class="scroll active"><a href="#navigation">Início</a></li>
                             <li class="scroll"><a href="#forum">Fórum</a></li> 
                             <li class="scroll"><a href="#faq">FAQ</a></li>

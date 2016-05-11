@@ -9,7 +9,7 @@
                     <input type="password" name="senha" class="form-control" required="required" placeholder="Senha">
                 </div> 
                 <div class="form-group">
-                    <button type="submit" class="btn btn-primary">Acessar</button>
+                    <button type="button" class="btn btn-primary" onclick="location.href='admin'">Acessar</button>
                 </div>
             </form>
         </div>

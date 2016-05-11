@@ -338,6 +338,28 @@ button {
     background-color: #fc7700;
 }
 
+#navigation .navbar-nav.navbar-right li #search,
+#navigation .navbar-nav.navbar-right li #cancel {
+    color: #43484E;
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+    padding: 0;
+    text-transform: uppercase;
+    -webkit-transition: all .9s ease 0s;
+    -moz-transition: all .9s ease 0s;
+    -o-transition: all .9s ease 0s;
+    transition: all .9s ease 0s;
+    padding: 6px 15px;
+    cursor: pointer;
+}
+
+#navigation .navbar-inverse .navbar-nav  .active  #search,  
+#navigation .navbar-inverse .navbar-nav  .active  #search:focus, 
+#navigation .navbar-nav.navbar-right li #search:hover {
+    color: #fff;
+    background-color: #fc7700;
+}
+
 
 /*======================
 ====Main Slider CSS=====
@@ -1246,13 +1268,12 @@ button {
 }
 
 #contact .contact-heading {
-    padding-bottom:35px;
     position: relative;
     z-index: 10;
 }
 
 .contact-details {	
-    padding-top:75px;
+    padding-top:50px;
 }
 
 .pattern {
@@ -1354,14 +1375,8 @@ button {
     z-index:2;
 }
 
-#contact-form .name-field, 
-#contact-form .mail-field  {
-    width:49%;
-}
-
 #contact-form .name-field {
     margin-right:2%;	
-    float:left
 }
 
 #contact-form .mail-field {
@@ -1606,13 +1621,33 @@ button {
     opacity: 1;
 }
 
+#cancel {
+    margin-top: 1.5px;
+    position: absolute;
+}
+
+@media(max-width:1198px) {
+    .companie .img {
+        padding: 10px 20px;
+    }
+}
+
+@media(max-width:992px) {
+    .companie .img img {
+        width: 72%;
+        display: inline;
+    }
+    .companie .img {
+        padding: 10px 50px;
+    }
+}
+
 @media(max-width:768px) {
     #login {
         padding: 100px 0;
     }
-    .companie img {
-        width: 50%;
-        height: auto;
+    .companie .img img {
+        width: 200px;
     }
     .companie>.img-responsive {
         display: initial;

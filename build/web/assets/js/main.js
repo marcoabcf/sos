@@ -5,6 +5,8 @@ jQuery(function($) {'use strict',
 	$(window).load(function(){'use strict',
 		$("#services").parallax("50%", 0.3);
 		$("#clients").parallax("50%", 0.3);
+                li = $('#search').parent();
+                button = li.html();
 	});
 	
 	// portfolio filter
@@ -50,8 +52,10 @@ jQuery(function($) {'use strict',
 	});
 
 	$('.navbar-collapse ul li a').click(function() {  
+            if($(this).attr('id') != 'search') {
 		$('html, body').animate({scrollTop: $(this.hash).offset().top - 79}, 1000);
 		return false;
+            }
 	});
 
 });
@@ -107,4 +111,17 @@ function Scroll() {
 	});
 });
 
+function searchs(buttonsearch) {
+    if($(buttonsearch).attr('id') === 'search') {
+    
+        li.html('<div class="form-group"><input type="text" name="input-search" class="form-control name-field" required="required" placeholder="Pesquisar"><a id="cancel" onclick="cancel(this);">Cancelar</a></div>');
 
+        li.find('input[name=input-search]').focus();
+    }
+};
+
+function cancel(buttoncancel) {
+    if($(buttoncancel).attr('id') === 'cancel') {
+        li.html(button);
+    }
+};
