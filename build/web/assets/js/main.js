@@ -114,7 +114,7 @@ function Scroll() {
 function searchs(buttonsearch) {
     if($(buttonsearch).attr('id') === 'search') {
     
-        li.html('<div class="form-group"><input type="text" name="input-search" class="form-control name-field" required="required" placeholder="Pesquisar"><a id="cancel" onclick="cancel(this);">Cancelar</a></div>');
+        li.html('<div class="form-group search"><input type="text" id="input-search" name="input-search" class="form-control name-field" placeholder="Pesquisar" required><a id="cancel" onclick="cancel(this);">Cancelar</a></div>');
 
         li.find('input[name=input-search]').focus();
     }

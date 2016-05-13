@@ -796,6 +796,13 @@ button {
     padding: 5px 20px;
 }
 
+.companie .ver-faq {
+    bottom: 0;
+    position: absolute;
+    margin-bottom: 2px;
+    margin-left: 5px;
+}
+
 .companie .img img {
     width:100%;
 }
@@ -1621,9 +1628,28 @@ button {
     opacity: 1;
 }
 
-#cancel {
-    margin-top: 1.5px;
+#cancel {    
+    margin-left: 1px;
     position: absolute;
+}
+
+div.search {
+    margin-right: 101px;
+}
+
+div.search #input-search {
+    height: 32px;
+    display: inline;
+}
+
+.cadastro {
+    margin-top: 89px;
+    margin-bottom: -20px;
+}
+
+.empresa {
+    margin-top: 95px;
+    margin-bottom: 15.8%;
 }
 
 @media(max-width:1198px) {
