@@ -29,6 +29,7 @@
                                 <a href="#"><i class="fa fa-linkedin"></i></a>
                             </div>
                         </div>
+                        <p class="ver-faq"><a href="empresa.jsp">FAQ Completo</a></p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-3">
@@ -47,6 +48,7 @@
                                 <a href="#"><i class="fa fa-linkedin"></i></a>
                             </div>
                         </div>
+                        <p class="ver-faq"><a href="empresa.jsp">FAQ Completo</a></p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-3">
@@ -65,6 +67,7 @@
                                 <a href="#"><i class="fa fa-linkedin"></i></a>
                             </div>
                         </div>
+                        <p class="ver-faq"><a href="empresa.jsp">FAQ Completo</a></p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-3">
@@ -83,6 +86,7 @@
                                 <a href="#"><i class="fa fa-linkedin"></i></a>
                             </div>
                         </div>
+                        <p class="ver-faq"><a href="empresa.jsp">FAQ Completo</a></p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-3">
@@ -101,6 +105,7 @@
                                 <a href="#"><i class="fa fa-linkedin"></i></a>
                             </div>
                         </div>
+                        <p class="ver-faq"><a href="empresa.jsp">FAQ Completo</a></p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-3">
@@ -119,6 +124,7 @@
                                 <a href="#"><i class="fa fa-linkedin"></i></a>
                             </div>
                         </div>
+                        <p class="ver-faq"><a href="empresa.jsp">FAQ Completo</a></p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-3">
@@ -137,6 +143,7 @@
                                 <a href="#"><i class="fa fa-linkedin"></i></a>
                             </div>
                         </div>
+                        <p class="ver-faq"><a href="empresa.jsp">FAQ Completo</a></p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-3">
@@ -155,6 +162,7 @@
                                 <a href="#"><i class="fa fa-linkedin"></i></a>
                             </div>
                         </div>
+                        <p class="ver-faq"><a href="empresa.jsp">FAQ Completo</a></p>
                     </div>
                 </div>
             </div>

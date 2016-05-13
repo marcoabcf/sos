@@ -9,7 +9,8 @@
                 <div> 
                     <h2 class="heading animated bounceInDown">Fale diretamente com a Empresa</h2> 
                     <p class="animated bounceInUp">Método Rápido e Fácil</p> 
-                    <a class="btn btn-default slider-btn animated fadeIn" href="#">Entrar no Fórum</a> 
+                    <a class="btn btn-default slider-btn animated fadeIn" href="#login">Login</a> 
+                    <a class="btn btn-default slider-btn animated fadeIn" href="cadastro.jsp">Cadastrar</a> 
                 </div> 
             </div> 
         </div>

@@ -35,8 +35,8 @@
                     <div class="collapse navbar-collapse"> 
                         <ul class="nav navbar-nav navbar-right"> 
                             <li><a id="search" onclick="searchs(this);"><span class="glyphicon glyphicon-search"></span></a></li> 
-                            <li class="scroll active"><a href="#navigation">Início</a></li>
-                            <li class="scroll"><a href="#forum">Fórum</a></li> 
+                            <!--<li class="scroll active"><a href="#navigation">Início</a></li>-->
+                            <li class="scroll active"><a href="#navigation">Início</a></li> 
                             <li class="scroll"><a href="#faq">FAQ</a></li>
                             <li class="scroll"><a href="#login">Login</a></li> 
                             <li class="scroll"><a href="#contact">Contato</a></li> 
