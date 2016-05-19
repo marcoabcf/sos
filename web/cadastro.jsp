@@ -16,39 +16,37 @@
                 <div class="col-sm-8 col-sm-offset-2"> 
                     <div id="contact-form-section">
                         <div class="status alert alert-success" style="display: none"></div>
-                        <form id="contact-form" class="contact" name="contact-form" method="post" action="">
+                        <form id="contact-form" class="contact" name="contact-form" method="post" action="UsuarioSV">
+                             <input type="hidden" name="action" value="salvar" />
+                             <input type="hidden" name="id" value="${objUsuario.id}" />
                             <div class="form-group">
-                                <input type="text" name="name" class="form-control name-field" required="required" placeholder="Seu Nome">
+                                <input type="text" name="nome" class="form-control name-field" required="required" placeholder="Seu Nome" value="${objUsuario.nome}">
                             </div>
                             <div class="row">
                                 <div class="col-sm-6">
                                     <div class="form-group">
-                                        <input type="email" name="email" class="form-control mail-field" required="required" placeholder="Seu E-mail">
+                                        <input type="email" name="email" class="form-control mail-field" required="required" placeholder="Seu E-mail" value="${objUsuario.email}">
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-group">
-                                        <input type="text" name="cpf" class="form-control mail-field" required="required" placeholder="Seu CPF">
+                                        <input type="text" name="cpf" class="form-control mail-field" required="required" placeholder="Seu CPF" value="${objUsuario.cpf}">
                                     </div> 
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-sm-6">
                                     <div class="form-group">
-                                            <input type="password" name="senha" class="form-control mail-field" required="required" placeholder="Sua Senha">
+                                        <input type="password" name="senha" class="form-control mail-field" required="required" placeholder="Sua Senha" value="${objUsuario.senha}">
                                     </div> 
                                 </div>
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <input type="password" name="confirmarsenha" class="form-control mail-field" required="required" placeholder="Confirme sua Senha">
-                                    </div> 
-                                </div>
+                            
                             </div>
                             <div class="form-group">
-                                <input type="text" name="telefone" class="form-control name-field" placeholder="Seu Telefone">
+                                <input type="text" name="telefone" class="form-control name-field" placeholder="Seu Telefone" value="${objUsuario.telefone}">
                             </div>
                             <div class="form-group">
-                                <button type="submit" class="btn btn-primary">Cadastrar</button>
+                                <button type="submit" name="btnSalvar" value="salvar" class="btn btn-primary">Cadastrar</button>
                             </div>
                         </form> 
                     </div>

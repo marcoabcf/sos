@@ -2,6 +2,15 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/C:/Users/Lucas/Documents/NetBeansProjects/sos/src/java/uni/soscompany/controller/AdmSV.java</file>
+            <file>file:/C:/Users/Lucas/Documents/NetBeansProjects/sos/web/empresa.jsp</file>
+            <file>file:/C:/Users/Lucas/Documents/NetBeansProjects/sos/src/java/uni/soscompany/controller/FaqSV.java</file>
+            <file>file:/C:/Users/Lucas/Documents/NetBeansProjects/sos/web/cadastro.jsp</file>
+            <file>file:/C:/Users/Lucas/Documents/NetBeansProjects/sos/src/java/uni/soscompany/controller/EmpresaSV.java</file>
+            <file>file:/C:/Users/Lucas/Documents/NetBeansProjects/sos/src/java/uni/soscompany/controller/UsuarioSV.java</file>
+            <file>file:/C:/Users/Lucas/Documents/NetBeansProjects/sos/src/java/uni/soscompany/controller/AtendimentoSV.java</file>
+            <file>file:/C:/Users/Lucas/Documents/NetBeansProjects/sos/src/java/uni/soscompany/action/UsuarioAction.java</file>
+        </group>
     </open-files>
 </project-private>
