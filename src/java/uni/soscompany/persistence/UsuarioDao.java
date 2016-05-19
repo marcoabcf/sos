@@ -25,8 +25,7 @@ public class UsuarioDao {
             return isOk;
         }
 
-        sql = "INSERT INTO usuario(nome, telefone, perfil, "
-                + "email, senha, avatar, cpf"
+        sql = "INSERT INTO usuario(nome, telefone, perfil, email, senha, avatar, cpf) "
                 + "VALUES(?,?,?,?,?,?,?);";
 
         try {

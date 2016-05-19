@@ -2,13 +2,13 @@ package uni.soscompany.bean;
 
 public class Usuario extends UsuarioComum {
 
-    private int cpf;
+    private Integer cpf;
 
-    public int getCpf() {
+    public Integer getCpf() {
         return cpf;
     }
 
-    public void setCpf(int cpf) {
+    public void setCpf(Integer cpf) {
         this.cpf = cpf;
     }
 }

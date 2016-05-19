@@ -17,7 +17,7 @@ public class UsuarioAction {
         switch (action) {
             case "novo":
                 request.setAttribute("objUsuario", new Usuario());
-                request.getRequestDispatcher("frmusuario.jsp").forward(request, response);
+                request.getRequestDispatcher("cadastro.jsp").forward(request, response);
                 break;
             case "salvar":
                 if (save(request)) {
@@ -26,19 +26,19 @@ public class UsuarioAction {
                     request.setAttribute("msg", "Erro ao realizar a operação!");
                 }
                 request.setAttribute("objUsuario", new Usuario());
-                request.getRequestDispatcher("frmusuario.jsp").forward(request, response);
+                request.getRequestDispatcher("cadastro.jsp").forward(request, response);
                 break;
             case "editar": {
                 int id = Integer.parseInt(request.getParameter("id"));
                 request.setAttribute("objUsuario", new UsuarioDao().getUsuario(id));
-                request.getRequestDispatcher("frmusuario.jsp").forward(request, response);
+                request.getRequestDispatcher("cadastro.jsp").forward(request, response);
                 break;
             }
             default: {
                 int id = Integer.parseInt(request.getParameter("id"));
                 new UsuarioDao().excluir(id);
                 request.setAttribute("lstUsuarios", new UsuarioDao().getUsuarios());
-                request.getRequestDispatcher("lstusuarios.jsp").forward(request, response);
+                request.getRequestDispatcher("cadastro.jsp").forward(request, response);
                 break;
             }
         }
@@ -47,20 +47,17 @@ public class UsuarioAction {
 
     private boolean save(HttpServletRequest request) {
         Usuario usuario = new Usuario();
-        usuario.setId(Integer.parseInt(request.getParameter("id")));
         usuario.setNome(request.getParameter("nome"));
         usuario.setTelefone(request.getParameter("telefone"));
-        usuario.setPerfil(Short.parseShort(request.getParameter("perfil")));
+        usuario.setPerfil(Short.parseShort("2"));
         usuario.setEmail(request.getParameter("email"));
         usuario.setSenha(request.getParameter("senha"));
         usuario.setAvatar(request.getParameter("avatar"));
-        usuario.setCpf(Integer.parseInt(request.getParameter("cpf")));
+        usuario.setCpf(2213123);
 
-        if (usuario.getId() == 0) {
-            return new UsuarioDao().incluir(usuario);
-        } else {
-            return new UsuarioDao().alterar(usuario);
-        }
+        
+        return new UsuarioDao().incluir(usuario);
+
     }
 
 }
