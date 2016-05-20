@@ -657,3 +657,7 @@
 </div><!-- /.content-wrapper -->
 
 <%@include file="_layouts/footer.jsp" %>
+
+<script>
+    $('#dashboard').addClass('active');
+</script>

@@ -2,45 +2,35 @@
 <aside class="main-sidebar">
     <!-- sidebar: style can be found in sidebar.less -->
     <section class="sidebar">
-        <!-- search form -->
-        <form action="#" method="get" class="sidebar-form">
-            <div class="input-group">
-                <input type="text" name="q" class="form-control" placeholder="Search...">
-                <span class="input-group-btn">
-                    <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i></button>
-                </span>
-            </div>
-        </form>
-        <!-- /.search form -->
         <!-- sidebar menu: : style can be found in sidebar.less -->
         <ul class="sidebar-menu">
             <li class="header">MENU DE NAVEGAÇÃO</li>
-            <li class="treeview">
-                <a href="#">
-                    <i class="fa fa-dashboard"></i> <span>Dashboard</span> <i class="fa fa-angle-left pull-right"></i>
+            <li id="dashboard" class="treeview">
+                <a href="<%=request.getContextPath()%>/admin">
+                    <i class="fa fa-dashboard"></i> <span>Dashboard</span>
                 </a>
-                <ul class="treeview-menu">
-                    <li><a href="#"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
-                    <li class="active"><a href="index2.html"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
-                </ul>
             </li>
             <li id="empresas" class="treeview">
                 <a href="#">
-                    <i class="fa fa-files-o"></i>
-                    <span>Empresas</span>
-                    <span class="label label-primary pull-right">4</span>
+                    <i class="fa fa-suitcase"></i>
+                    <span>Empresas</span><i class="fa fa-angle-left pull-right"></i>
                 </a>
                 <ul class="treeview-menu">
-                    <li class="cadastrar"><a href="${pageContext.request.contextPath}/admin/pages/cadastrar.jsp"><i class="fa fa-circle-o"></i> Cadastrar</a></li>
-                    <li class="listar"><a href="${pageContext.request.contextPath}/admin/pages/listar.jsp"><i class="fa fa-circle-o"></i> Listar</a></li>
+                    <li class="cadastrar"><a href="${pageContext.request.contextPath}/admin/empresas/cadastrar.jsp"><i class="fa fa-circle-o"></i> Cadastrar</a></li>
+                    <li class="listar"><a href="${pageContext.request.contextPath}/admin/empresas/listar.jsp"><i class="fa fa-circle-o"></i> Listar</a></li>
                 </ul>
             </li>
-            <li>
-                <a href="pages/widgets.html">
-                    <i class="fa fa-th"></i> <span>Widgets</span> <small class="label pull-right bg-green">new</small>
+            <li id="atendimentos" class="treeview">
+                <a href="<%=request.getContextPath()%>/admin/atendimentos/">
+                    <i class="fa fa-commenting"></i>
+                    <span>Atendimentos</span><i class="fa fa-angle-left pull-right"></i>
                 </a>
+                <ul class="treeview-menu">
+                    <li class="cadastrar"><a href="${pageContext.request.contextPath}/admin/atendimentos/cadastrar.jsp"><i class="fa fa-circle-o"></i> Cadastrar</a></li>
+                    <li class="listar"><a href="${pageContext.request.contextPath}/admin/atendimentos/"><i class="fa fa-circle-o"></i> Listar</a></li>
+                </ul>
             </li>
-            <li class="treeview">
+            <!--<li class="treeview">
                 <a href="#">
                     <i class="fa fa-pie-chart"></i>
                     <span>Charts</span>
@@ -144,7 +134,7 @@
             <li class="header">LABELS</li>
             <li><a href="#"><i class="fa fa-circle-o text-red"></i> <span>Important</span></a></li>
             <li><a href="#"><i class="fa fa-circle-o text-yellow"></i> <span>Warning</span></a></li>
-            <li><a href="#"><i class="fa fa-circle-o text-aqua"></i> <span>Information</span></a></li>
+            <li><a href="#"><i class="fa fa-circle-o text-aqua"></i> <span>Information</span></a></li>-->
         </ul>
     </section>
     <!-- /.sidebar -->

@@ -45,7 +45,7 @@
                                 <tr>
                                     <td>Bob Doe</td>
                                     <td><span class="label label-primary">Approved</span></td>
-                                    <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
+                                    <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td> 
                                     <td>11-7-2014</td>
                                 </tr>
                                 <tr>
