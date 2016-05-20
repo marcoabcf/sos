@@ -1,0 +1,18 @@
+.callout.callout-info.primary-person {
+    background-color: #00c0ef !important;
+    border-color: initial;
+    border-left: 5px solid #0097bc;
+}
+
+.callout.callout-info.second-person {
+    background-color: #CCCCCC !important;
+    border-color: transparent;
+    border-right: 5px solid #636363;
+}
+
+.label.label-danger {
+    background-color: #B30505 !important;
+}
+
+
+
