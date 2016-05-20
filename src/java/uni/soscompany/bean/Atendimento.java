@@ -5,7 +5,7 @@ public class Atendimento {
     private String area;
     private String titulo;
     private String textoAtendimento;
-    private int protocolo;
+    private String protocolo;
 
     public String getArea() {
         return area;
@@ -31,11 +31,11 @@ public class Atendimento {
         this.textoAtendimento = textoAtendimento;
     }
 
-    public int getProtocolo() {
+    public String getProtocolo() {
         return protocolo;
     }
 
-    public void setProtocolo(int protocolo) {
+    public void setProtocolo(String protocolo) {
         this.protocolo = protocolo;
     }
     
