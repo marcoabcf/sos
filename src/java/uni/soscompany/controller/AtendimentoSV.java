@@ -15,7 +15,7 @@ public class AtendimentoSV extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
 
-      // new AtendimentoAction().execute(request, response);
+      new AtendimentoAction().execute(request, response);
 
     }
 
