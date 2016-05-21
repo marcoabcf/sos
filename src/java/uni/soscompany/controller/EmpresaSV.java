@@ -7,10 +7,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import uni.soscompany.action.EmpresaAction;
 
-/**
- *
- * @author aluno
- */
 public class EmpresaSV extends HttpServlet {
 
     @Override

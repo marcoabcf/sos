@@ -25,8 +25,7 @@ public class EmpresaDao {
             return isOk;
         }
 
-        sql = "INSERT INTO empresa(nome, telefone, perfil, "
-                + "email, senha, avatar, cnpj, descricao"
+        sql = "INSERT INTO empresa(nome, telefone, perfil, email, senha, avatar, cnpj, descricao"
                 + "VALUES(?,?,?,?,?,?,?,?);";
 
         try {

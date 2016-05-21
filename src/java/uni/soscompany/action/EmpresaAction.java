@@ -16,7 +16,7 @@ public class EmpresaAction {
         switch (action) {
             case "novo":
                 request.setAttribute("objEmpresa", new Empresa());
-                request.getRequestDispatcher("frmempresa.jsp").forward(request, response);
+                request.getRequestDispatcher("admin/empresas/cadastrar.jsp").forward(request, response);
                 break;
             case "salvar":
                 if (save(request)) {
@@ -25,12 +25,12 @@ public class EmpresaAction {
                     request.setAttribute("msg", "Erro ao realizar a operação!");
                 }
                 request.setAttribute("objEmpresa", new Empresa());
-                request.getRequestDispatcher("frmempresa.jsp").forward(request, response);
+                request.getRequestDispatcher("admin/empresas/cadastrar.jsp").forward(request, response);
                 break;
             case "editar": {
                 int id = Integer.parseInt(request.getParameter("id"));
                 request.setAttribute("objEmpresa", new EmpresaDao().getEmpresa(id));
-                request.getRequestDispatcher("frmempresa.jsp").forward(request, response);
+                request.getRequestDispatcher("admin/empresas/cadastrar.jsp").forward(request, response);
                 break;
             }
             default: {
@@ -46,20 +46,17 @@ public class EmpresaAction {
     
       private boolean save(HttpServletRequest request) {
         Empresa empresa = new Empresa();
-        empresa.setId(Integer.parseInt(request.getParameter("id")));
         empresa.setNome(request.getParameter("nome"));
         empresa.setTelefone(request.getParameter("telefone"));
-        empresa.setPerfil(Short.parseShort(request.getParameter("perfil")));
+        empresa.setPerfil(Short.parseShort("3"));
         empresa.setEmail(request.getParameter("email"));
         empresa.setSenha(request.getParameter("senha"));
         empresa.setAvatar(request.getParameter("avatar"));
-        empresa.setCnpj(Integer.parseInt(request.getParameter("cnpj")));
+        empresa.setCnpj(23124213);
         empresa.setDescricao(request.getParameter("descricao"));
-        if (empresa.getId() == 0) {
-            return new EmpresaDao().incluir(empresa);
-        } else {
-            return new EmpresaDao().alterar(empresa);
-        }
+
+        return new EmpresaDao().incluir(empresa);
+
     }
 
 }
