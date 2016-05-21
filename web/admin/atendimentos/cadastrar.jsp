@@ -8,7 +8,8 @@
                 <h3 class="box-title">Cadastrar Atendimento</h3>
             </div>
             <!-- /.box-header -->
-            <form action="action">
+             <form id="contact-form" class="contact" name="contact-form" method="post" action="AtendimentoSV">
+                    <input type="hidden" name="action" value="salvar" />
                 <div class="box-body">
                     <div class="row">
                         <div class="col-md-6">

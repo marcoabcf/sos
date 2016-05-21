@@ -4,6 +4,7 @@ package uni.soscompany.bean;
 import java.util.Date;
 
 public class Atendimento {
+    private int Id;
     private String area;
     private String titulo;
     private String textoAtendimento;
@@ -50,6 +51,12 @@ public class Atendimento {
     public void setProtocolo(String protocolo) {
         this.protocolo = protocolo;
     }
-    
+
+    public int getId() {
+        return Id;
+    }
+    public void setId(int Id) {
+        this.Id = Id;
+    }
     
 }

@@ -3,7 +3,6 @@ import java.io.IOException;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import uni.soscompany.bean.Usuario;
 import uni.soscompany.bean.Atendimento;
 import uni.soscompany.persistence.AtendimentoDao;
 import uni.soscompany.persistence.UsuarioDao;
@@ -19,8 +18,30 @@ public class AtendimentoAction {
         switch(action){
             case "novo" :
                 request.setAttribute("objAtendimento", new Atendimento());
-                request.getRequestDispatcher("atendimento.jsp").forward(request, response);
+                request.getRequestDispatcher("admin/atendimentos/cadastrar.jsp").forward(request, response);
                 break;
+            case "salvar":
+                if (save(request)) {
+                    request.setAttribute("msg", "Operação realizada com sucesso!");
+                } else {
+                    request.setAttribute("msg", "Erro ao realizar a operação!");
+                }
+                request.setAttribute("objAtendimento", new Atendimento());
+                request.getRequestDispatcher("admin/atendimentos/cadastrar.jsp").forward(request, response);
+                break;
+            case "editar": {
+                int id = Integer.parseInt(request.getParameter("id"));
+                request.setAttribute("objAtendimento", new AtendimentoDao().getAtendimento(id));
+                request.getRequestDispatcher("admin/atendimentos/cadastrar.jsp").forward(request, response);
+                break;
+            }
+            default: {
+                int id = Integer.parseInt(request.getParameter("id"));
+                new UsuarioDao().excluir(id);
+                request.setAttribute("lstAtendimento", new AtendimentoDao().getAtendimentos());
+                request.getRequestDispatcher("admin/atendimentos/cadastrar.jsp").forward(request, response);
+                break;
+            }    
         }
 
     }
