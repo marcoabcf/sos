@@ -7,8 +7,11 @@ import uni.soscompany.bean.Usuario;
 import uni.soscompany.bean.Atendimento;
 import uni.soscompany.persistence.AtendimentoDao;
 import uni.soscompany.persistence.UsuarioDao;
+import java.util.Date;
+
+
 public class AtendimentoAction {
-  
+ 
     public void execute (HttpServletRequest request, HttpServletResponse response)
               throws ServletException, IOException {
         
@@ -28,6 +31,7 @@ public class AtendimentoAction {
         atendimento.setProtocolo(request.getParameter("protocolo"));
         atendimento.setTextoAtendimento(request.getParameter("textoAtendimento"));
         atendimento.setTitulo(request.getParameter("titulo"));
+        atendimento.setDate(new Date());
         
         return new AtendimentoDao().incluir (atendimento);
     }

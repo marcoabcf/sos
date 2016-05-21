@@ -27,8 +27,8 @@ public class AtendimentoDao {
             return isOk;
         }
         
-            sql = "INSERT INTO atendimento(area, protocolo, textoAtendimento, titulo) "
-                    + "VALUES(?,?,?,?);";
+            sql = "INSERT INTO atendimento(area, titulo, textoAtendimento, protocolo, date) +"
+                    + "VALUES(?,?,?,?,?);";
         
         try {
             ps = conn.prepareStatement(sql);
