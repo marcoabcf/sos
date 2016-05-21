@@ -13,7 +13,7 @@
         <div class="contact-details">
             <div class="pattern"></div>
             <div class="row text-center">
-                <div class="col-sm-8 col-sm-offset-2"> 
+                <div class="col-sm-8 col-sm-offset-2 form-cadastro"> 
                     <div id="contact-form-section">
                         <div class="status alert alert-success" style="display: none"></div>
                         <form id="contact-form" class="contact" name="contact-form" method="post" action="UsuarioSV">

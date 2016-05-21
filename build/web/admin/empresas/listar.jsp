@@ -31,25 +31,25 @@
                                     <th>Data de Cadastro</th>
                                 </tr>
                                 <tr>
-                                    <td>John Doe</td>
+                                    <td><a href="./visualizar.jsp">Empresa Ltda</a></td>
                                     <td><span class="label label-success">Approved</span></td>
                                     <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
                                     <td>11-7-2014</td>
                                 </tr>
                                 <tr>
-                                    <td>Alexander Pierce</td>
+                                    <td><a href="./visualizar.jsp">Alexander Pierce</a></td>
                                     <td><span class="label label-warning">Pending</span></td>
                                     <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
                                     <td>11-7-2014</td>
                                 </tr>
                                 <tr>
-                                    <td>Bob Doe</td>
+                                    <td><a href="./visualizar.jsp">Bob Doe</a></td>
                                     <td><span class="label label-primary">Approved</span></td>
                                     <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
                                     <td>11-7-2014</td>
                                 </tr>
                                 <tr>
-                                    <td>Mike Doe</td>
+                                    <td><a href="./visualizar.jsp">Mike Doe</a></td>
                                     <td><span class="label label-danger">Denied</span></td>
                                     <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
                                     <td>11-7-2014</td>

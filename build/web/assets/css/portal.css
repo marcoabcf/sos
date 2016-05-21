@@ -1,108 +1,12 @@
-.navbar-fixed-top>.first {
-    background: #3c3c3c;
-    color: #000000;
-}
-
-.navbar-fixed-top>div {
-    padding-left: 100px;
-    padding-right: 100px;
-}
-
-.navbar-fixed-top>.second {
-    background-color: #ff7600;
-}
-
-.navbar-default .navbar-nav>li>a {
-    color: #FFFFFF;
-}
-
-.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-    color: #CCCCCC;
-}
-
-.logo {
-    margin-top: -15px;
-    width: 250px;
-}
-
-.bar {
-    top: 0;
-    width: 18px;
-    height: 50px;
-    margin-left: 30%;
-    position: absolute;
-    background: #ff7600;
-    -webkit-transform: skew(-45deg); /* Chrome, Opera */
-    -ms-transform: skew(-45deg); /* IE */
-    transform: skew(-45deg); /* Padrão */
-}
-
-.login {
-    width: 200px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-input {  
-    border: 0;
-    border-radius: 0;
-}
-
-.cycle-slideshow > div {
-    line-height: normal;
-}
-
-.cycle-slideshow > div > div > .title {
-    text-align: center;
-    font-weight: bold;
-    padding: 5px 0;
-    margin-left: inherit;
-    background-color: #e7e7e7;
-}
-
-.carousel-inner > .item > img {
-    width: 100%;
-}
-
-.mais {
-    text-align: right;
-}
-
-.mais>a:hover {
-    color: #3c3c3c !important;
-    background-color: transparent !important;
+.form-cadastro {
+    margin-left: 15.5%;
 }
 
 @media(max-width:480px) {
-    .navbar-fixed-top>div {
-        padding-left: 50px;
-        padding-right: 50px;
-    }
 }
 
 @media(max-width:768px) {
-    .bar {
-        height: 50px;
-        margin-left: 50%;
-    }
-    .navbar-fixed-top>div {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-    .navbar-fixed-top {
-        position: initial;
-    }
-    .logo {
-        width: 80px;
-    }
-    .navbar-toggle {
-        margin-top: -42px;
-    }
-    #carousel-div-responsive {
-        padding: 0;
-    }
-    #page-content-wrapper {
-        padding-left: 0;
-        padding-right: 0;
+    .form-cadastro {
+        margin-left: initial;
     }
 }

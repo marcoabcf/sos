@@ -3,6 +3,7 @@
 <link href="<%=request.getContextPath()%>/assets/css/font-awesome.min.css" rel="stylesheet"> 
 <link href="<%=request.getContextPath()%>/assets/css/animate.css" rel="stylesheet"> 
 <link href="<%=request.getContextPath()%>/assets/css/main.css" rel="stylesheet">
+<link href="<%=request.getContextPath()%>/assets/css/portal.css" rel="stylesheet">
 <link href="<%=request.getContextPath()%>/assets/css/responsive.css" rel="stylesheet"> 
 <!--[if lt IE 9]> <script src="<%=request.getContextPath()%>/assets/js/html5shiv.js"></script> 
 <script src="<%=request.getContextPath()%>/assets/js/respond.min.js"></script> <![endif]--> 
