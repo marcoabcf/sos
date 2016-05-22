@@ -14,5 +14,6 @@
     background-color: #B30505 !important;
 }
 
-
-
+.timeline>li>.timeline-item {
+    margin-right: 5px;
+}

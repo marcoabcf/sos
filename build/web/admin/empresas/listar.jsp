@@ -26,33 +26,33 @@
                             <tbody>
                                 <tr>
                                     <th>Nome</th>
+                                    <th>Descrição</th>
+                                    <th class="text-center">Data de Cadastro</th>
                                     <th>Status</th>
-                                    <th>Reason</th>
-                                    <th>Data de Cadastro</th>
                                 </tr>
                                 <tr>
                                     <td><a href="./visualizar.jsp">Empresa Ltda</a></td>
-                                    <td><span class="label label-success">Approved</span></td>
                                     <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
-                                    <td>11-7-2014</td>
+                                    <td class="text-center">02/04/2016</td>
+                                    <td><span class="label label-success">Ativo</span></td>
                                 </tr>
                                 <tr>
-                                    <td><a href="./visualizar.jsp">Alexander Pierce</a></td>
-                                    <td><span class="label label-warning">Pending</span></td>
+                                    <td><a href="./visualizar.jsp">Empresa 2 Ltda</a></td>
                                     <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
-                                    <td>11-7-2014</td>
+                                    <td class="text-center">14/04/2016</td>
+                                    <td><span class="label label-success">Ativo</span></td>
                                 </tr>
                                 <tr>
-                                    <td><a href="./visualizar.jsp">Bob Doe</a></td>
-                                    <td><span class="label label-primary">Approved</span></td>
+                                    <td><a href="./visualizar.jsp">Empresa 3 Ltda</a></td>
                                     <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
-                                    <td>11-7-2014</td>
+                                    <td class="text-center">12/06/2016</td>
+                                    <td><span class="label label-danger">Desativado</span></td>
                                 </tr>
                                 <tr>
-                                    <td><a href="./visualizar.jsp">Mike Doe</a></td>
-                                    <td><span class="label label-danger">Denied</span></td>
+                                    <td><a href="./visualizar.jsp">Empresa 4 Ltda</a></td>
                                     <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
-                                    <td>11-7-2014</td>
+                                    <td class="text-center">14/06/2016</td>
+                                    <td><span class="label label-success">Ativo</span></td>
                                 </tr>
                             </tbody>
                         </table>

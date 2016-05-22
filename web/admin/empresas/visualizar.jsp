@@ -10,7 +10,7 @@
                 <!-- Profile Image -->
                 <div class="box">
                     <div class="box-body box-profile">
-                        <img class="profile-user-img img-responsive img-circle" src="<%=request.getContextPath()%>/admin/assets/dist/img/user2-160x160.jpg" alt="User profile picture">
+                        <img class="profile-user-img img-responsive img-circle" src="<%=request.getContextPath()%>/admin/assets/dist/img/default-50x50.gif" alt="User profile picture">
 
                         <h3 class="profile-username text-center">Empresa Ltda</h3>
                         <p class="text-muted text-center">Empresa</p>

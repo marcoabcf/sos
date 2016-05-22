@@ -27,31 +27,36 @@
                                 <tr>
                                     <th>Título</th>
                                     <th>Última mensagem</th>
-                                    <th>Data de Cadastro</th>
+                                    <th>Empresa</th>
+                                    <th class="text-center">Data de Cadastro</th>
                                     <th>Status</th>
                                 </tr>
                                 <tr>
                                     <td><a href="./visualizar.jsp">John Doe</a></td>
                                     <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner...</td>
-                                    <td>11-7-2014</td>
+                                    <td>Empresa Ltda</td>
+                                    <td class="text-center">10/07/2016</td>
                                     <td><span class="label label-success">Atendido</span></td>
                                 </tr>
                                 <tr>
                                     <td><a href="./visualizar.jsp">Alexander Pierce</a></td>
                                     <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner...</td>
-                                    <td>11-7-2014</td>
+                                    <td>Empresa 2 Ltda</td>
+                                    <td class="text-center">11/07/2016</td>
                                     <td><span class="label label-warning">Pendente</span></td>
                                 </tr>
                                 <tr>
                                     <td><a href="./visualizar.jsp">Bob Doe</a></td>
                                     <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner...</td>
-                                    <td>11-7-2014</td>
+                                    <td>Empresa 4 Ltda</td>
+                                    <td class="text-center">11/07/2016</td>
                                     <td><span class="label label-primary">Fechado</span></td>
                                 </tr>
                                 <tr>
                                     <td><a href="./visualizar.jsp">Mike Doe</a></td>
                                     <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner...</td>
-                                    <td>11-7-2014</td>
+                                    <td>Empresa 4 Ltda</td>
+                                    <td class="text-center">14/07/2016</td>
                                     <td><span class="label label-danger">Não Atendido</span></td>
                                 </tr>
                             </tbody>

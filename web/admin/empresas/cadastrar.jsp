@@ -9,7 +9,7 @@
             </div>
             <!-- /.box-header -->
             <div class="box-body">
-            <form id="contact-form" class="contact" name="contact-form" method="post" action="EmpresaSV">
+            <form id="contact-form" class="contact" name="contact-form" method="post" action="<%=application.getContextPath() %>/EmpresaSV">
                        <input type="hidden" name="action" value="salvar" />
                        <input type="hidden" name="id" value="${objEmpresa.id}" />
                     <div class="row">

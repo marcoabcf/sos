@@ -28,26 +28,39 @@
                         </form>
                     </div>
                 </div>
-                <div class="callout callout-info primary-person">
-                    <h4>Tip!</h4>
+                <div class="row">
+                    <!-- The time line -->
+                    <ul class="timeline">
+                        <li>
+                            <i class="fa fa-user bg-aqua"></i>
 
-                    <p>Add the sidebar-collapse class to the body tag to get this layout. You should combine this option with a
-                        fixed layout if you have a long sidebar. Doing that will prevent your page content from getting stretched
-                        vertically.</p>
-                </div>
-                <div class="callout callout-info second-person">
-                    <h4>Tip!</h4>
+                            <div class="timeline-item">
+                                <span class="time"><i class="fa fa-calendar"></i> 10 Fev. 2016</span>
 
-                    <p>Add the sidebar-collapse class to the body tag to get this layout. You should combine this option with a
-                        fixed layout if you have a long sidebar. Doing that will prevent your page content from getting stretched
-                        vertically.</p>
-                </div>
-                <div class="callout callout-info primary-person">
-                    <h4>Tip!</h4>
+                                <h3 class="timeline-header"><a href="#">João José</a></h3>
 
-                    <p>Add the sidebar-collapse class to the body tag to get this layout. You should combine this option with a
-                        fixed layout if you have a long sidebar. Doing that will prevent your page content from getting stretched
-                        vertically.</p>
+                                <div class="timeline-body">
+                                    Olá. Estou com um problema....
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fa fa-suitcase  bg-blue"></i>
+
+                            <div class="timeline-item">
+                                <span class="time"><i class="fa fa-calendar"></i> 11 Fev. 2016</span>
+
+                                <h3 class="timeline-header"><a href="#">Atendente</a></h3>
+
+                                <div class="timeline-body">
+                                    Nós entendemos. Quer tentar alguns passos? .....
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fa fa-clock-o bg-gray"></i>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
