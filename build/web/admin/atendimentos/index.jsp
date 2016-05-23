@@ -32,32 +32,32 @@
                                     <th>Status</th>
                                 </tr>
                                 <tr>
-                                    <td><a href="./visualizar.jsp">John Doe</a></td>
-                                    <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner...</td>
-                                    <td>Empresa Ltda</td>
+                                    <td><a href="./visualizar.jsp">O dispositivo não funciona.</a></td>
+                                    <td>Tentei de tudo e nada dele funcionar....</td>
+                                    <td><a href="../empresas/visualizar.jsp">Empresa 2 Ltda</a></td>
+                                    <td class="text-center">11/07/2016</td>
+                                    <td><span class="label label-danger">Não Atendido</span></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="./visualizar.jsp">Está difícil..</a></td>
+                                    <td>Nós entendemos. Quer tentar alguns passos? .....</td>
+                                    <td><a href="../empresas/visualizar.jsp">Empresa Ltda</a></td>
                                     <td class="text-center">10/07/2016</td>
                                     <td><span class="label label-success">Atendido</span></td>
                                 </tr>
                                 <tr>
-                                    <td><a href="./visualizar.jsp">Alexander Pierce</a></td>
-                                    <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner...</td>
-                                    <td>Empresa 2 Ltda</td>
+                                    <td><a href="./visualizar.jsp">Não consigo acessar o site...</a></td>
+                                    <td>Tente acessar atravez deste link...</td>
+                                    <td><a href="../empresas/visualizar.jsp">Empresa 4 Ltda</a></td>
                                     <td class="text-center">11/07/2016</td>
-                                    <td><span class="label label-warning">Pendente</span></td>
+                                    <td><span class="label label-success">Atendido</span></td>
                                 </tr>
                                 <tr>
-                                    <td><a href="./visualizar.jsp">Bob Doe</a></td>
-                                    <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner...</td>
-                                    <td>Empresa 4 Ltda</td>
-                                    <td class="text-center">11/07/2016</td>
-                                    <td><span class="label label-primary">Fechado</span></td>
-                                </tr>
-                                <tr>
-                                    <td><a href="./visualizar.jsp">Mike Doe</a></td>
-                                    <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner...</td>
-                                    <td>Empresa 4 Ltda</td>
+                                    <td><a href="./visualizar.jsp">Quero comprar um produto...</a></td>
+                                    <td>Agradeço seu contato e boas compras....</td>
+                                    <td><a href="../empresas/visualizar.jsp">Empresa 4 Ltda</a></td>
                                     <td class="text-center">14/07/2016</td>
-                                    <td><span class="label label-danger">Não Atendido</span></td>
+                                    <td><span class="label label-default">Finalizado</span></td>
                                 </tr>
                             </tbody>
                         </table>

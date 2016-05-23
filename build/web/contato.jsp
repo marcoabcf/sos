@@ -19,7 +19,10 @@
                         <div class="form-group">
                             <input type="text" name="name" class="form-control name-field" required="required" placeholder="Seu Nome"></div>
                         <div class="form-group">
-                            <input type="email" name="email" class="form-control mail-field" required="required" placeholder="Seu E-mail">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                                <input type="email" name="email" class="form-control mail-field" required="required" placeholder="Seu E-mail">
+                            </div>
                         </div> 
                         <div class="form-group">
                             <textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Mensagem"></textarea>

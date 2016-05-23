@@ -48,4 +48,4 @@
     <!-- /.content -->
 </div>
 
-<jsp:include page="../_layouts/footer.jsp" />
+<jsp:include page="_layouts/footer.jsp" />

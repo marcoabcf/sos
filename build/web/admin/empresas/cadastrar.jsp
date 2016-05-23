@@ -9,20 +9,14 @@
             </div>
             <!-- /.box-header -->
             <div class="box-body">
-            <form id="contact-form" class="contact" name="contact-form" method="post" action="<%=application.getContextPath() %>/EmpresaSV">
-                       <input type="hidden" name="action" value="salvar" />
-                       <input type="hidden" name="id" value="${objEmpresa.id}" />
+                <form id="contact-form" class="contact" name="contact-form" method="post" action="<%=application.getContextPath()%>/EmpresaSV">
+                    <input type="hidden" name="action" value="salvar" />
+                    <input type="hidden" name="id" value="${objEmpresa.id}" />
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
                                 <label>Nome</label>
                                 <input type="text" name="nome" required="required" class="form-control" placeholder="SOS Company" value="${objEmpresa.nome}">
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <label>Telefone</label>
-                                <input type="text" name="telefone" class="form-control" placeholder="(62)9999-9999" value="${objEmpresa.telefone}">
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -34,19 +28,34 @@
                                 </div>
                             </div>
                         </div>
-                         <div class="col-md-6">
+                        <div class="col-md-3">
                             <div class="form-group">
-                                <label>Senha</label>
-                                <input type="password" name="senha" required="required" class="form-control" placeholder="*********" value="${objEmpresa.senha}">
+                                <label>Telefone</label>
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="fa fa-phone"></i></span>
+                                    <input type="text" name="telefone" class="form-control" placeholder="(62)9999-9999" value="${objEmpresa.telefone}">
+                                </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-3">
                             <div class="form-group">
                                 <label>CNPJ</label>
                                 <input type="text" name="cnpj" required="required" class="form-control" placeholder="00.000.000/0000-00" value="${objEmpresa.cnpj}">
                             </div>
                         </div>
-                                  
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label>Senha</label>
+                                <input type="password" name="senha" required="required" class="form-control" placeholder="*********" value="${objEmpresa.senha}">
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label>Confirmar Senha</label>
+                                <input type="password" name="senha" required="required" class="form-control" placeholder="*********" value="${objEmpresa.senha}">
+                            </div>
+                        </div>
+
                         <div class="col-md-12">
                             <button type="submit" value="salvar" class="btn btn-default btn-sm pull-right" title="Enviar">
                                 Salvar

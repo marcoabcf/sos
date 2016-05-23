@@ -34,11 +34,10 @@
                             <div class="form-group">
                                 <label>Empresa</label>
                                 <select class="form-control">
-                                    <option>option 1</option>
-                                    <option>option 2</option>
-                                    <option>option 3</option>
-                                    <option>option 4</option>
-                                    <option>option 5</option>
+                                    <option>Selecione</option>
+                                    <option>Empresa Ltda</option>
+                                    <option>Empresa 2 Ltda</option>
+                                    <option>Empresa 4 Ltda</option>
                                 </select>
                             </div>
                         </div>
@@ -46,7 +45,7 @@
 
                             <textarea class="textarea" placeholder="Digite aqui seu problema, solução..." style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px; resize:none;"></textarea>
 
-                            <button type="button" class="btn btn-default btn-sm pull-right" title="Enviar">
+                            <button type="button" class="btn btn-default btn-sm pull-right" title="Enviar" onclick="location.href='./visualizar.jsp'">
                                 Enviar
                             </button>
                         </div>

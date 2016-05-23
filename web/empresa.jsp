@@ -159,9 +159,9 @@
                             <div class="skill-bar-percent">10%</div>
                         </div> <!-- End Skill Bar -->
                     </div>
-                    
+
                     <a class="btn btn-default slider-btn animated fadeIn" href="./#contact">Atendimento</a> 
-                    
+
                 </div>
             </div>
         </div>

@@ -17,15 +17,18 @@
                     <div id="contact-form-section">
                         <div class="status alert alert-success" style="display: none"></div>
                         <form id="contact-form" class="contact" name="contact-form" method="post" action="UsuarioSV">
-                             <input type="hidden" name="action" value="salvar" />
-                             <input type="hidden" name="id" value="${objUsuario.id}" />
+                            <input type="hidden" name="action" value="salvar" />
+                            <input type="hidden" name="id" value="${objUsuario.id}" />
                             <div class="form-group">
                                 <input type="text" name="nome" class="form-control name-field" required="required" placeholder="Seu Nome" value="${objUsuario.nome}">
                             </div>
                             <div class="row">
                                 <div class="col-sm-6">
                                     <div class="form-group">
-                                        <input type="email" name="email" class="form-control mail-field" required="required" placeholder="Seu E-mail" value="${objUsuario.email}">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                                            <input type="email" name="email" class="form-control mail-field" required="required" placeholder="Seu E-mail" value="${objUsuario.email}">
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
@@ -40,10 +43,17 @@
                                         <input type="password" name="senha" class="form-control mail-field" required="required" placeholder="Sua Senha" value="${objUsuario.senha}">
                                     </div> 
                                 </div>
-                            
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input type="password" name="senha" class="form-control mail-field" required="required" placeholder="Confirmar Senha" value="${objUsuario.senha}">
+                                    </div> 
+                                </div>
                             </div>
                             <div class="form-group">
-                                <input type="text" name="telefone" class="form-control name-field" placeholder="Seu Telefone" value="${objUsuario.telefone}">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="fa fa-phone"></i></span>
+                                    <input type="text" name="telefone" class="form-control name-field" placeholder="Seu Telefone" value="${objUsuario.telefone}">
+                                </div>
                             </div>
                             <div class="form-group">
                                 <button type="submit" name="btnSalvar" value="salvar" class="btn btn-primary">Cadastrar</button>

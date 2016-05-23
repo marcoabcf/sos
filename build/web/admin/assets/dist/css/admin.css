@@ -17,3 +17,11 @@
 .timeline>li>.timeline-item {
     margin-right: 5px;
 }
+
+.products-list .product-info {
+    margin-left: auto;
+}
+
+.faq-visualizar {
+    padding: 0;
+}
